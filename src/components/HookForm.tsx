@@ -13,7 +13,7 @@ export const HookForm = () => {
     };
     const { register, handleSubmit, formState: { errors } } = useForm<FormData>();
 
-    const onSubmit = (data: any) => {
+    const onSubmit = (data: FormData) => {
         console.log("Data", data);
     }
     return (

@@ -1,9 +1,10 @@
 import './App.css'
-import { HookForm } from './components/HookForm'
+// import { HookForm } from './components/HookForm'
+import { HookFormZod } from './components/HookFormZod'
 
 function App() {
   return (
-    <HookForm />
+    <HookFormZod />
   )
 }
 
