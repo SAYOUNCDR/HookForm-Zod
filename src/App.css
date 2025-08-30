@@ -4,33 +4,3 @@
   padding: 2rem;
   text-align: center;
 }
-
-.form-group{
-  margin-bottom: 1rem;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-
-  input,select{
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 0.25rem;
-    width: 100%;
-  }
-
-  .cbox{
-    margin-bottom: 2rem;
-  }
-  
-  
-}
-
-button{
-  padding: 0.5rem 1rem;
-  border: none;
-  border-radius: 0.25rem;
-  background-color: #000000;
-  color: white;
-  cursor: pointer;
-}
